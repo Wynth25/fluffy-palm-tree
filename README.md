@@ -1,3 +1,5 @@
+# Abbreviations and File Map
+
 ## a – Abnormal
 ## s – Sixteen
 ## alg – not playable versions
