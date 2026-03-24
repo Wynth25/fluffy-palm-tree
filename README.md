@@ -1,5 +1,9 @@
 # Abbreviations and File Map
 
+**To play go to /SOLVED/abnormal-sixteen-opt-SOLVED_finito.py**
+*changing ```solution=0``` to ```solution=1``` gives you the shuffle as well as ultimate power moves ;)*
+
+
 ## a – Abnormal
 ## s – Sixteen
 ## alg – not playable versions
