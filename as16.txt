@@ -1,0 +1,21 @@
+1. Začal jsem programovat hru “Fifteen”
+2. Místo změny dvou políček jedním tahem jsem chybně udělal změnu čtyř — celý sloupec/řádek
+3. Vzal jsem to jako nápad pro modifikovanou hru “Fifteen”
+4. Vznikla tím Abnormal Sixteen
+5. Nejde to vyřešit 
+6. Skládám Rubikovu kostku, začal jsem uplatňovat pravidla z ní na tuto hru
+7. Zkusil jsem nejprve hrubou silou najít algoritmus, který by vyměnil 2 políčka místy. Byla třeba optimizovat tvoření algoritmů — www, ws & ww/ss.
+8. I s optimizací nešlo najít jediný algoritmus pro výměnu pouze 2 poliček. Ani tří. Délka 21
+9. Začal jsem hledat jaká je maximální délka pro složení z jakékoliv pozice (??) tzv. God’s Algorithm
+10. Zároveň hledat maximální počet množství stavu herní plochy
+11. Hledal jsem (hrubou silou) nq kolika se přestanou tvořit nové pozice. 20 nestačilo. A to bylo přes 118 mil různých herních ploch.
+12. Pro 3x3 to je 12 tahů a 1 512 různých herních stavů 
+13. Začal jsem zkoumat patterns — možná nějaké číslice nejdou od sebe oddělit? Zkusil jsem skupinu 1 až 4 — 43 680 kombinací. Všechny. 
+14. Zkusil jsem zanechat skupinu 1 až 4 na jejich správné pozici a zkoumat pohyb jiných čísel. Čím více čísel bylo ve skupince tím víc mezer se tam objevovalo, ale stačilo jít trochu hlouběji (délka řetězce) a už se tam objevovali.
+15. V tu chvíli mě napadlo, že musím prozkoumat důkladněji pohyb kurzoru — políčka 16. Když je daná skupina 1 až 4 tak může být kdekoliv. 
+16. A tu jsem dostal nejlepší ideu. Hledat výměnu jiného políčka s kurzorem.
+17. Hloubka 21 nestačila. Tak jsem začal hledat 15 z obou stran a porovnávat je mezi sebou.
+18. 29 !!!!
+19. Dokázal jsem vyměnit kurzor s políčkem vedle něj a deabnormalizivat mou A16 do klasické hry “Fifteen”
+20. 29 - 29 coincidence?
+21. 16!  /  2 ale pro 3x3 ne?
